@@ -1,0 +1,988 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<mdOwnedViews>
+	<mdElement elementClass='Part' xmi:id='_18_4_1_f31034a_1490098406629_520927_18649'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398336_476613_16880'/>
+		<geometry>749, 504, 217, 161</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406629_2472_18650'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402463_229745_17197'/>
+				<properties>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>742, 515, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406629_243163_18651'>
+						<geometry>763, 524, 72, 12</geometry>
+						<mdOwnedViews/>
+						<text>Timer 2 Pos 28</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406629_243163_18651'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406629_898403_18652'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402463_790352_17198'/>
+				<properties>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>742, 540, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406629_416469_18653'>
+						<geometry>763, 546, 72, 12</geometry>
+						<mdOwnedViews/>
+						<text>Timer 3 Pos 29</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406629_416469_18653'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406629_32041_18654'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402464_238259_17199'/>
+				<properties>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>742, 564, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406629_398142_18655'>
+						<geometry>763, 567, 72, 12</geometry>
+						<mdOwnedViews/>
+						<text>Timer 4 Pos 30</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406629_398142_18655'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406629_476715_18656'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402465_556227_17200'/>
+				<properties>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>742, 588, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406629_8107_18657'>
+						<geometry>763, 595, 118, 12</geometry>
+						<mdOwnedViews/>
+						<text>Systick : ~Signal Systick</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406629_8107_18657'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406629_9207_18658'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402466_373423_17201'/>
+				<properties>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>742, 612, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406629_206922_18659'>
+						<geometry>763, 623, 179, 12</geometry>
+						<mdOwnedViews/>
+						<text>Timer 1 UpIT Pos 25 : ~Signaux Timer</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406629_206922_18659'/>
+			</mdElement>
+		</mdOwnedViews>
+	</mdElement>
+	<mdElement elementClass='Part' xmi:id='_18_4_1_f31034a_1490098406630_114909_18660'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398333_951593_16878'/>
+		<geometry>959, 224, 93, 109</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_584664_18661'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402437_823029_17155'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>1044, 264, 15, 15</geometry>
+				<edge xmi:value='1'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_597077_18662'>
+						<geometry>1062, 256, 28, 12</geometry>
+						<mdOwnedViews/>
+						<text>IO Pin</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_597077_18662'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_105143_18663'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402438_961759_17156'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>971, 325, 15, 15</geometry>
+				<edge xmi:value='2'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_730741_18664'>
+						<geometry>981, 343, 35, 12</geometry>
+						<mdOwnedViews/>
+						<text>Analog</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_730741_18664'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_201933_18665'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402438_880016_17157'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>952, 284, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_594794_18666'>
+						<geometry>899, 276, 50, 12</geometry>
+						<mdOwnedViews/>
+						<text>Alternate I</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_594794_18666'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_78325_18667'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402439_177459_17158'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>1014, 325, 15, 15</geometry>
+				<edge xmi:value='2'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_940570_18668'>
+						<geometry>1024, 343, 56, 12</geometry>
+						<mdOwnedViews/>
+						<text>Alternate O</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_940570_18668'/>
+			</mdElement>
+		</mdOwnedViews>
+	</mdElement>
+	<mdElement elementClass='Part' xmi:id='_18_4_1_f31034a_1490098406630_564087_18669'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398332_253875_16877'/>
+		<geometry>700, 210, 116, 157</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_579909_18670'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402455_368656_17186'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>693, 222, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_785164_18671'>
+						<geometry>648, 214, 42, 12</geometry>
+						<mdOwnedViews/>
+						<text>TIM_Ch1</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_785164_18671'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_309238_18672'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402456_522746_17187'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>693, 246, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_130854_18673'>
+						<geometry>648, 238, 42, 12</geometry>
+						<mdOwnedViews/>
+						<text>TIM_Ch2</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_130854_18673'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_227803_18674'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402456_331613_17188'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>808, 283, 15, 15</geometry>
+				<edge xmi:value='1'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_995225_18675'>
+						<geometry>826, 275, 42, 12</geometry>
+						<mdOwnedViews/>
+						<text>TIM_Ch3</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_995225_18675'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_498070_18676'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402457_169793_17189'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>693, 294, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_729554_18677'>
+						<geometry>648, 286, 42, 12</geometry>
+						<mdOwnedViews/>
+						<text>TIM_Ch4</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_729554_18677'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_65013_18678'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402458_217903_17190'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>693, 318, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_390147_18679'>
+						<geometry>623, 310, 67, 12</geometry>
+						<mdOwnedViews/>
+						<text>Flag_IT_Timer</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_390147_18679'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_169917_18680'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402461_372079_17191'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>693, 342, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_686415_18681'>
+						<geometry>655, 334, 35, 12</geometry>
+						<mdOwnedViews/>
+						<text>TIM_Ck</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_686415_18681'/>
+			</mdElement>
+		</mdOwnedViews>
+	</mdElement>
+	<mdElement elementClass='Part' xmi:id='_18_4_1_f31034a_1490098406630_125243_18682'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398334_564102_16879'/>
+		<geometry>469, 504, 116, 157</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_28445_18683'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402455_368656_17186'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>462, 516, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_362703_18684'>
+						<geometry>417, 508, 42, 12</geometry>
+						<mdOwnedViews/>
+						<text>TIM_Ch1</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_362703_18684'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_508221_18685'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402456_522746_17187'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>462, 540, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_220014_18686'>
+						<geometry>417, 532, 42, 12</geometry>
+						<mdOwnedViews/>
+						<text>TIM_Ch2</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_220014_18686'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_806201_18687'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402456_331613_17188'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>462, 564, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_926711_18688'>
+						<geometry>417, 556, 42, 12</geometry>
+						<mdOwnedViews/>
+						<text>TIM_Ch3</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_926711_18688'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_443168_18689'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402457_169793_17189'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>462, 588, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_310300_18690'>
+						<geometry>417, 580, 42, 12</geometry>
+						<mdOwnedViews/>
+						<text>TIM_Ch4</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_310300_18690'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_59439_18691'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402458_217903_17190'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>577, 564, 15, 15</geometry>
+				<edge xmi:value='1'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_535902_18692'>
+						<geometry>595, 556, 67, 12</geometry>
+						<mdOwnedViews/>
+						<text>Flag_IT_Timer</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_535902_18692'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406630_828921_18693'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402461_372079_17191'/>
+				<properties>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_TYPE</propertyID>
+						<propertyDescriptionID>SHOW_TYPE_DESCRIPTION</propertyDescriptionID>
+					</mdElement>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+					<mdElement elementClass='BooleanProperty'>
+						<propertyID>SHOW_PORT_DIRECTION</propertyID>
+						<propertyDescriptionID>SHOW_PORT_DIRECTION_DESCRIPTION</propertyDescriptionID>
+						<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+						<value xmi:value='true'/>
+					</mdElement>
+				</properties>
+				<geometry>462, 636, 15, 15</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_771180_18694'>
+						<geometry>424, 628, 35, 12</geometry>
+						<mdOwnedViews/>
+						<text>TIM_Ck</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406630_771180_18694'/>
+			</mdElement>
+		</mdOwnedViews>
+	</mdElement>
+	<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406630_48684_18695'>
+		<geometry>413, 196, 136, 36</geometry>
+		<mdOwnedViews/>
+		<text>Gestion du son 
+- PWM TIM3
+- IT échantillon TIM4</text>
+	</mdElement>
+	<mdElement elementClass='RectangularShape' xmi:id='_18_4_1_f31034a_1490098406630_729833_18696'>
+		<properties>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>USE_FILL_COLOR</propertyID>
+				<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='ChoiceProperty'>
+				<propertyID>LINE_STYLE</propertyID>
+				<propertyDescriptionID>LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+				<value>SOLID</value>
+				<choice xmi:value='DASHED^SOLID^DOTTED'/>
+				<index xmi:value='1'/>
+			</mdElement>
+			<mdElement elementClass='ColorProperty'>
+				<propertyID>FILL_COLOR</propertyID>
+				<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='-52'/>
+			</mdElement>
+		</properties>
+		<geometry>371, 161, 741, 547</geometry>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Connector' xmi:id='_18_4_1_f31034a_1490098406640_212553_18998'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398330_567967_16867'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1490098406630_201933_18665'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1490098406630_227803_18674'/>
+		<geometry>952, 291; 823, 291; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='true'/>
+		<mdOwnedViews>
+			<mdElement elementClass='ConnectorEnd' xmi:id='_18_4_1_f31034a_1490098406665_305067_22592'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402398_272993_17074'/>
+				<geometry>942, 286, 10, 10</geometry>
+				<compartment compartmentID='TAGGED_VALUES'/>
+			</mdElement>
+			<mdElement elementClass='ConnectorEnd' xmi:id='_18_4_1_f31034a_1490098406665_131275_22593'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402398_711167_17073'/>
+				<geometry>823, 286, 10, 10</geometry>
+				<compartment compartmentID='TAGGED_VALUES'/>
+			</mdElement>
+		</mdOwnedViews>
+		<connectorEndAID xmi:idref='_18_4_1_f31034a_1490098406665_305067_22592'/>
+		<connectorEndBID xmi:idref='_18_4_1_f31034a_1490098406665_131275_22593'/>
+	</mdElement>
+	<mdElement elementClass='Connector' xmi:id='_18_4_1_f31034a_1490098406640_379675_18999'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398330_773657_16868'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1490098406629_319005_18645'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1490098406630_584664_18661'/>
+		<geometry>1235, 270; 1059, 270; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='true'/>
+		<mdOwnedViews>
+			<mdElement elementClass='ConnectorEnd' xmi:id='_18_4_1_f31034a_1490098406665_41164_22594'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402398_473754_17076'/>
+				<geometry>1225, 265, 10, 10</geometry>
+				<compartment compartmentID='TAGGED_VALUES'/>
+			</mdElement>
+			<mdElement elementClass='ConnectorEnd' xmi:id='_18_4_1_f31034a_1490098406665_878786_22595'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402398_293807_17075'/>
+				<geometry>1059, 265, 10, 10</geometry>
+				<compartment compartmentID='TAGGED_VALUES'/>
+			</mdElement>
+		</mdOwnedViews>
+		<connectorEndAID xmi:idref='_18_4_1_f31034a_1490098406665_41164_22594'/>
+		<connectorEndBID xmi:idref='_18_4_1_f31034a_1490098406665_878786_22595'/>
+	</mdElement>
+	<mdElement elementClass='Connector' xmi:id='_18_4_1_f31034a_1490098406640_345670_19000'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398330_444495_16869'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1490098406629_32041_18654'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1490098406630_59439_18691'/>
+		<geometry>742, 571; 592, 571; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='true'/>
+		<mdOwnedViews>
+			<mdElement elementClass='ConnectorEnd' xmi:id='_18_4_1_f31034a_1490098406665_662397_22596'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402398_552526_17078'/>
+				<geometry>732, 566, 10, 10</geometry>
+				<compartment compartmentID='TAGGED_VALUES'/>
+			</mdElement>
+			<mdElement elementClass='ConnectorEnd' xmi:id='_18_4_1_f31034a_1490098406665_482405_22597'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402398_836810_17077'/>
+				<geometry>592, 566, 10, 10</geometry>
+				<compartment compartmentID='TAGGED_VALUES'/>
+			</mdElement>
+		</mdOwnedViews>
+		<connectorEndAID xmi:idref='_18_4_1_f31034a_1490098406665_662397_22596'/>
+		<connectorEndBID xmi:idref='_18_4_1_f31034a_1490098406665_482405_22597'/>
+	</mdElement>
+	<mdElement elementClass='Connector' xmi:id='_18_4_1_f31034a_1490098406640_359352_19001'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398331_789754_16870'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1490098406629_467977_18647'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1490098406630_828921_18693'/>
+		<geometry>20, 644; 462, 644; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='true'/>
+		<mdOwnedViews>
+			<mdElement elementClass='ConnectorEnd' xmi:id='_18_4_1_f31034a_1490098406665_99782_22598'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402399_378686_17080'/>
+				<geometry>20, 639, 10, 10</geometry>
+				<compartment compartmentID='TAGGED_VALUES'/>
+			</mdElement>
+			<mdElement elementClass='ConnectorEnd' xmi:id='_18_4_1_f31034a_1490098406665_666973_22599'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402399_281945_17079'/>
+				<geometry>452, 639, 10, 10</geometry>
+				<compartment compartmentID='TAGGED_VALUES'/>
+			</mdElement>
+		</mdOwnedViews>
+		<connectorEndAID xmi:idref='_18_4_1_f31034a_1490098406665_99782_22598'/>
+		<connectorEndBID xmi:idref='_18_4_1_f31034a_1490098406665_666973_22599'/>
+	</mdElement>
+	<mdElement elementClass='Connector' xmi:id='_18_4_1_f31034a_1490098406640_732018_19002'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398331_18049_16871'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1490098406629_467977_18647'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1490098406630_169917_18680'/>
+		<geometry>20, 595; 112, 595; 112, 350; 693, 350; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='true'/>
+		<mdOwnedViews>
+			<mdElement elementClass='ConnectorEnd' xmi:id='_18_4_1_f31034a_1490098406665_511547_22600'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402399_79968_17082'/>
+				<geometry>20, 590, 10, 10</geometry>
+				<compartment compartmentID='TAGGED_VALUES'/>
+			</mdElement>
+			<mdElement elementClass='ConnectorEnd' xmi:id='_18_4_1_f31034a_1490098406665_910821_22601'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098402399_167253_17081'/>
+				<geometry>683, 345, 10, 10</geometry>
+				<compartment compartmentID='TAGGED_VALUES'/>
+			</mdElement>
+		</mdOwnedViews>
+		<connectorEndAID xmi:idref='_18_4_1_f31034a_1490098406665_511547_22600'/>
+		<connectorEndBID xmi:idref='_18_4_1_f31034a_1490098406665_910821_22601'/>
+	</mdElement>
+	<mdElement elementClass='DiagramFrame' xmi:id='_18_4_1_f31034a_1490098406665_270251_22602'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398144_607949_16819'/>
+		<geometry>12, 5, 1231, 792</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406629_319005_18645'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098398336_22658_16881'/>
+				<properties>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+				</properties>
+				<geometry>1235, 263, 15, 15</geometry>
+				<edge xmi:value='1'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406629_851885_18646'>
+						<geometry>1170, 255, 62, 12</geometry>
+						<mdOwnedViews/>
+						<text>IO Pin : InOut</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406629_851885_18646'/>
+			</mdElement>
+			<mdElement elementClass='Port' xmi:id='_18_4_1_f31034a_1490098406629_467977_18647'>
+				<elementID xmi:idref='_18_4_1_f31034a_1490098398338_790405_16882'/>
+				<properties>
+					<mdElement elementClass='ChoiceProperty'>
+						<propertyID>STEREOTYPES_DISPLAY_MODE</propertyID>
+						<propertyDescriptionID>STEREOTYPES_DISPLAY_MODE_DESCRIPTION</propertyDescriptionID>
+						<value>STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES</value>
+						<choice xmi:value='STEREOTYPE_DISPLAY_MODE_TEXT_AND_ICON^STEREOTYPE_DISPLAY_MODE_TEXT^STEREOTYPE_DISPLAY_MODE_ICON^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE_AND_TEXT^STEREOTYPE_DISPLAY_MODE_SHAPE_IMAGE^STEREOTYPE_DISPLAY_MODE_DO_NOT_DISPLAY_STEREOTYPES'/>
+						<index xmi:value='5'/>
+					</mdElement>
+				</properties>
+				<geometry>5, 571, 15, 81</geometry>
+				<edge xmi:value='3'/>
+				<compartment compartmentID='TAGGED_VALUES'/>
+				<mdOwnedViews>
+					<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406629_771447_18648'>
+						<geometry>21, 620, 81, 12</geometry>
+						<mdOwnedViews/>
+						<text>TIM_Ck : In Logic</text>
+					</mdElement>
+				</mdOwnedViews>
+				<nameID xmi:idref='_18_4_1_f31034a_1490098406629_771447_18648'/>
+			</mdElement>
+		</mdOwnedViews>
+	</mdElement>
+	<mdElement elementClass='Note' xmi:id='_18_4_1_f31034a_1490109660708_561229_25726'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398330_444495_16869'/>
+		<properties>
+			<mdElement elementClass='ColorProperty'>
+				<propertyID>FILL_COLOR</propertyID>
+				<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='-1'/>
+			</mdElement>
+		</properties>
+		<geometry>616, 427, 100, 69</geometry>
+		<compartment compartmentID='TAGGED_VALUES2'/>
+		<mdOwnedViews/>
+		<text>déclenche l&#39;interruption qui lance la fonction timer_callback()</text>
+		<active xmi:idref='_18_4_1_f31034a_1490109489968_863399_25700'/>
+	</mdElement>
+	<mdElement elementClass='NoteAnchor' xmi:id='_18_4_1_f31034a_1490109489968_863399_25700'>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1490109660708_561229_25726'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1490098406640_345670_19000'/>
+		<geometry>666, 496; 667, 571; </geometry>
+	</mdElement>
+	<mdElement elementClass='Note' xmi:id='_18_4_1_f31034a_1490109660708_382573_25725'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398338_790405_16882'/>
+		<properties>
+			<mdElement elementClass='ColorProperty'>
+				<propertyID>FILL_COLOR</propertyID>
+				<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='-1'/>
+			</mdElement>
+		</properties>
+		<geometry>56, 686, 100, 40</geometry>
+		<compartment compartmentID='TAGGED_VALUES2'/>
+		<mdOwnedViews/>
+		<text>Horloge de 72 MHz</text>
+		<active xmi:idref='_18_4_1_f31034a_1490109660661_14765_25724'/>
+	</mdElement>
+	<mdElement elementClass='NoteAnchor' xmi:id='_18_4_1_f31034a_1490109660661_14765_25724'>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1490109660708_382573_25725'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1490098406629_467977_18647'/>
+		<geometry>86, 686; 20, 619; </geometry>
+	</mdElement>
+	<mdElement elementClass='Note' xmi:id='_18_4_1_f31034a_1490109694170_350327_25743'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398332_253875_16877'/>
+		<properties>
+			<mdElement elementClass='ColorProperty'>
+				<propertyID>FILL_COLOR</propertyID>
+				<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='-1'/>
+			</mdElement>
+		</properties>
+		<geometry>840, 343, 100, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES2'/>
+		<mdOwnedViews/>
+		<text>Timer 3 configuré en PWM</text>
+		<active xmi:idref='_18_4_1_f31034a_1490109694122_732002_25742'/>
+	</mdElement>
+	<mdElement elementClass='NoteAnchor' xmi:id='_18_4_1_f31034a_1490109694122_732002_25742'>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1490109694170_350327_25743'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1490098406630_564087_18669'/>
+		<geometry>852, 343; 816, 322; </geometry>
+	</mdElement>
+	<mdElement elementClass='Note' xmi:id='_18_4_1_f31034a_1490109746336_452562_25764'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398334_564102_16879'/>
+		<properties>
+			<mdElement elementClass='ColorProperty'>
+				<propertyID>FILL_COLOR</propertyID>
+				<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='-1'/>
+			</mdElement>
+		</properties>
+		<geometry>385, 385, 100, 71</geometry>
+		<compartment compartmentID='TAGGED_VALUES2'/>
+		<mdOwnedViews/>
+		<text>Timer réglé sur la fréquence d&#39;échantillinnage du son, 11 025 Hz</text>
+		<active xmi:idref='_18_4_1_f31034a_1490109746281_141890_25763'/>
+	</mdElement>
+	<mdElement elementClass='NoteAnchor' xmi:id='_18_4_1_f31034a_1490109746281_141890_25763'>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1490109746336_452562_25764'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1490098406630_125243_18682'/>
+		<geometry>455, 456; 483, 504; </geometry>
+	</mdElement>
+</mdOwnedViews>

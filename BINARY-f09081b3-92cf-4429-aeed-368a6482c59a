@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<mdOwnedViews>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1484309188269_279065_17331'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482161788127_815958_14077'/>
+		<geometry>238, 133, 176, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+	<mdElement elementClass='RectangularShape' xmi:id='_18_4_1_f31034a_1484309188269_495782_17332'>
+		<properties>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>USE_FILL_COLOR</propertyID>
+				<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='ChoiceProperty'>
+				<propertyID>LINE_STYLE</propertyID>
+				<propertyDescriptionID>LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+				<value>SOLID</value>
+				<choice xmi:value='DASHED^SOLID^DOTTED'/>
+				<index xmi:value='1'/>
+			</mdElement>
+			<mdElement elementClass='ColorProperty'>
+				<propertyID>FILL_COLOR</propertyID>
+				<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='-52'/>
+			</mdElement>
+		</properties>
+		<geometry>42, 98, 875, 196</geometry>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1484309188269_75091_17333'>
+		<properties>
+			<mdElement elementClass='FontProperty'>
+				<propertyID>FONT</propertyID>
+				<propertyDescriptionID>FONT_DESCRIPTION</propertyDescriptionID>
+				<fontName>Times New Roman</fontName>
+				<size xmi:value='24'/>
+				<style xmi:value='3'/>
+			</mdElement>
+		</properties>
+		<geometry>154, 56, 399, 56</geometry>
+		<mdOwnedViews/>
+		<text>Présentation générale du système</text>
+	</mdElement>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1484309188269_797241_17334'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482165096721_512059_14501'/>
+		<geometry>49, 133, 166, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1484309188269_675977_17335'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482272228592_636146_25001'/>
+		<geometry>497, 133, 144, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1484309188269_315504_17336'>
+		<elementID xmi:idref='_18_4_1_f31034a_1484299675509_382404_17031'/>
+		<geometry>497, 231, 150, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+	<mdElement elementClass='RectangularShape' xmi:id='_18_4_1_f31034a_1484309188269_891479_17337'>
+		<properties>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>USE_FILL_COLOR</propertyID>
+				<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='ChoiceProperty'>
+				<propertyID>LINE_STYLE</propertyID>
+				<propertyDescriptionID>LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+				<value>SOLID</value>
+				<choice xmi:value='DASHED^SOLID^DOTTED'/>
+				<index xmi:value='1'/>
+			</mdElement>
+			<mdElement elementClass='ColorProperty'>
+				<propertyID>FILL_COLOR</propertyID>
+				<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='-52'/>
+			</mdElement>
+		</properties>
+		<geometry>56, 406, 672, 196</geometry>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1484309188269_835583_17338'>
+		<properties>
+			<mdElement elementClass='FontProperty'>
+				<propertyID>FONT</propertyID>
+				<propertyDescriptionID>FONT_DESCRIPTION</propertyDescriptionID>
+				<fontName>Times New Roman</fontName>
+				<size xmi:value='24'/>
+				<style xmi:value='3'/>
+			</mdElement>
+		</properties>
+		<geometry>161, 364, 462, 42</geometry>
+		<mdOwnedViews/>
+		<text>Constitution, structure du dispositif Cible</text>
+	</mdElement>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1484309188269_661065_17339'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482167407311_977226_15168'/>
+		<geometry>322, 434, 116, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1484309188269_804945_17340'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482262819191_898608_21926'/>
+		<geometry>322, 511, 116, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+	<mdElement elementClass='DiagramFrame' xmi:id='_18_4_1_f31034a_1484309188280_328586_17499'>
+		<elementID xmi:idref='_18_4_1_f31034a_1484309188220_346169_17301'/>
+		<geometry>5, 5, 1569, 982</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='RectangularShape' xmi:id='_18_4_1_f31034a_1484309232227_452809_17534'>
+		<properties>
+			<mdElement elementClass='ChoiceProperty'>
+				<propertyID>LINE_STYLE</propertyID>
+				<propertyDescriptionID>LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+				<value>SOLID</value>
+				<choice xmi:value='DASHED^SOLID^DOTTED'/>
+				<index xmi:value='1'/>
+			</mdElement>
+		</properties>
+		<geometry>875, 679, 679, 266</geometry>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1484309244902_557990_17542'>
+		<properties>
+			<mdElement elementClass='FontProperty'>
+				<propertyID>FONT</propertyID>
+				<propertyDescriptionID>FONT_DESCRIPTION</propertyDescriptionID>
+				<fontName>Times New Roman</fontName>
+				<size xmi:value='24'/>
+				<style xmi:value='3'/>
+			</mdElement>
+		</properties>
+		<geometry>952, 637, 462, 42</geometry>
+		<mdOwnedViews/>
+		<text>Constitution, structure de la mallette</text>
+	</mdElement>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1484309768739_612279_18771'>
+		<elementID xmi:idref='_18_4_1_f31034a_1484309474472_224815_17981'/>
+		<geometry>1141, 693, 131, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1484309866253_710213_18917'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482185413904_81225_16787'/>
+		<geometry>1169, 777, 80, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1484492276909_89127_18101'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482150853357_35150_13727'/>
+		<geometry>770, 168, 91, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1484658075002_119154_16514'>
+		<elementID xmi:idref='_18_4_1_f31034a_1484391304580_739849_18231'/>
+		<geometry>1113, 868, 187, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+	<mdElement elementClass='RectangularShape' xmi:id='_18_4_1_f31034a_1490098644189_842211_23442'>
+		<properties>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>USE_FILL_COLOR</propertyID>
+				<propertyDescriptionID>USE_FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='ChoiceProperty'>
+				<propertyID>LINE_STYLE</propertyID>
+				<propertyDescriptionID>LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+				<value>SOLID</value>
+				<choice xmi:value='DASHED^SOLID^DOTTED'/>
+				<index xmi:value='1'/>
+			</mdElement>
+			<mdElement elementClass='ColorProperty'>
+				<propertyID>FILL_COLOR</propertyID>
+				<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='-52'/>
+			</mdElement>
+		</properties>
+		<geometry>56, 707, 672, 196</geometry>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098650490_615769_23446'>
+		<properties>
+			<mdElement elementClass='FontProperty'>
+				<propertyID>FONT</propertyID>
+				<propertyDescriptionID>FONT_DESCRIPTION</propertyDescriptionID>
+				<fontName>Times New Roman</fontName>
+				<size xmi:value='24'/>
+				<style xmi:value='3'/>
+			</mdElement>
+		</properties>
+		<geometry>133, 658, 553, 35</geometry>
+		<mdOwnedViews/>
+		<text>Constitution, structure soft et périph du STM103</text>
+	</mdElement>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1490098766856_383367_23506'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098397209_985129_16775'/>
+		<geometry>350, 742, 100, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1490098936558_364113_23755'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398144_607949_16819'/>
+		<geometry>224, 819, 141, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+	<mdElement elementClass='DiagramShape' xmi:id='_18_4_1_f31034a_1490098945223_787814_23817'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098398261_559239_16842'/>
+		<geometry>476, 826, 152, 45</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<diagramOverviewScale xmi:value='1.0'/>
+	</mdElement>
+</mdOwnedViews>

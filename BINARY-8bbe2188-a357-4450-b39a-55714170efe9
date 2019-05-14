@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<mdOwnedViews>
+	<mdElement elementClass='Interface' xmi:id='_18_4_1_f31034a_1490098406633_381508_18762'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098399490_830466_16917'/>
+		<geometry>161, 336, 91, 24</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1490098406633_474769_18763'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098399491_769012_16918'/>
+		<properties>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_VALUES_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_VALUES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_FULLPORTS_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_FULLPORTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_CONSTRAINTS_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_CONSTRAINTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_REFERENCES_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_REFERENCES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_FLOWPROPERTIES_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_FLOWPROPERTIES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_PARTS_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_PARTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_PROXYPORTS_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_PROXYPORTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_PROPERTIES_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_PROPERTIES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+		</properties>
+		<geometry>266, 266, 88, 33</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1490098406633_822548_18764'>
+		<properties>
+			<mdElement elementClass='FontProperty'>
+				<propertyID>FONT</propertyID>
+				<propertyDescriptionID>FONT_DESCRIPTION</propertyDescriptionID>
+				<fontName>Times New Roman</fontName>
+				<size xmi:value='20'/>
+				<style xmi:value='1'/>
+			</mdElement>
+		</properties>
+		<geometry>98, 70, 364, 161</geometry>
+		<mdOwnedViews/>
+		<text>Interface Drivers / périphériques
+
+Par nature, il s&#39;agit des registres périphs.
+ 
+On peut voir aussi cette interface comme étant stm32f10x.h</text>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1490098406633_993899_18765'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098399493_131794_16919'/>
+		<properties>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_VALUES_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_VALUES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_FULLPORTS_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_FULLPORTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_CONSTRAINTS_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_CONSTRAINTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_REFERENCES_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_REFERENCES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_FLOWPROPERTIES_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_FLOWPROPERTIES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_PARTS_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_PARTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_PROXYPORTS_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_PROXYPORTS_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<propertyResourceID>SYSML_PROPERTY_RESOURCE_PROVIDER</propertyResourceID>
+				<value xmi:value='true'/>
+			</mdElement>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SUPPRESS_PROPERTIES_COMPARTMENT</propertyID>
+				<propertyGroup>SYSML_PROPERTIES_COMPARTMENT_GROUP</propertyGroup>
+				<propertyDescriptionID>SUPPRESS_PROPERTIES_COMPARTMENT_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+		</properties>
+		<geometry>56, 252, 88, 33</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='InterfaceRealization' xmi:id='_18_4_1_f31034a_1490098406641_780477_19011'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098402415_852979_17108'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1490098406633_381508_18762'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1490098406633_474769_18763'/>
+		<geometry>225, 336; 283, 299; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='true'/>
+	</mdElement>
+	<mdElement elementClass='Usage' xmi:id='_18_4_1_f31034a_1490098406641_459395_19012'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098399493_253478_16920'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1490098406633_381508_18762'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1490098406633_993899_18765'/>
+		<geometry>190, 336; 123, 285; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='true'/>
+		<mdOwnedViews>
+			<mdElement elementClass='TextBoxWithIcon' xmi:id='_18_4_1_f31034a_1490098406633_891626_18766'>
+				<geometry>155, 295, 31, 12</geometry>
+				<mdOwnedViews/>
+				<text>«use»</text>
+			</mdElement>
+		</mdOwnedViews>
+		<linkStereotypeID xmi:idref='_18_4_1_f31034a_1490098406633_891626_18766'/>
+	</mdElement>
+	<mdElement elementClass='DiagramFrame' xmi:id='_18_4_1_f31034a_1490098406664_354360_22249'>
+		<elementID xmi:idref='_18_4_1_f31034a_1490098400194_97794_16924'/>
+		<geometry>5, 5, 679, 507</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+</mdOwnedViews>

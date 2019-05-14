@@ -1,0 +1,112 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 thumb
+    2 00000000         
+    3 00000000                 extern           TabSig
+    4 00000000         
+    5 00000000                 area             moncode, code, readonly
+    6 00000000                 export           re_im
+    7 00000000         ;
+    8 00000000         re_im   proc
+    9 00000000 B410            push             {r4}
+   10 00000002 B420            push             {r5}
+   11 00000004 B440            push             {r6}
+   12 00000006 B480            push             {r7}
+   13 00000008 F84D 8D04       push             {r8}
+   14 0000000C F04F 0600       mov              r6, #0      ;variable d'incréme
+                                                            ntation
+   15 00000010 F04F 0800       mov              r8, #0      ;somme
+   16 00000014 F930 5016 
+                       loop    ldrsh            r5, [r0, r6, LSL #1] 
+                                                            ;on stocke x(i)
+   17 00000018 FB06 F701       mul              r7, r6, r1  ;on calcule i*k
+   18 0000001C F007 073F       and              r7, #0x3F   ;i*k mod 64
+   19 00000020 F932 C017       ldrsh            r12, [r2, r7, LSL #1] ;sin(i*k*
+                                                            2pi/N) = tabsin(i*k
+                                                             mod 64), idem pour
+                                                             cos
+   20 00000024 FB05 880C       mla              r8, r5, r12, r8 ;on continue la
+                                                             somme : +(x(i)*tab
+                                                            sin(i*k))
+   21 00000028         
+   22 00000028 F106 0601       add              r6, #1
+   23 0000002C 2E40            cmp              r6, #64
+   24 0000002E D3F1            blo              loop
+   25 00000030         
+   26 00000030 4640            mov              r0, r8
+   27 00000032 F85D 8B04       pop              {r8}
+   28 00000036 BC80            pop              {r7}
+   29 00000038 BC40            pop              {r6}
+   30 0000003A BC20            pop              {r5}
+   31 0000003C BC10            pop              {r4}
+   32 0000003E         
+   33 0000003E 4770    fin     bx               lr          ;dernière instructi
+                                                            on de la fonction
+   34 00000040                 endp
+   35 00000040         ;
+   36 00000040                 end
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\obj\dft.d -o.\obj\dft.o -I.\RTE\_Simu -IC:\Keil_v5\ARM\PACK\ARM\
+CMSIS\5.3.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device
+\Include --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --predefin
+e="__UVISION_VERSION SETA 525" --predefine="_RTE_ SETA 1" --predefine="STM32F10
+X_MD SETA 1" --list=dft.lst dft.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+fin 0000003E
+
+Symbol: fin
+   Definitions
+      At line 33 in file dft.s
+   Uses
+      None
+Comment: fin unused
+loop 00000014
+
+Symbol: loop
+   Definitions
+      At line 16 in file dft.s
+   Uses
+      At line 24 in file dft.s
+Comment: loop used once
+moncode 00000000
+
+Symbol: moncode
+   Definitions
+      At line 5 in file dft.s
+   Uses
+      None
+Comment: moncode unused
+re_im 00000000
+
+Symbol: re_im
+   Definitions
+      At line 8 in file dft.s
+   Uses
+      At line 6 in file dft.s
+Comment: re_im used once
+4 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+TabSig 00000000
+
+Symbol: TabSig
+   Definitions
+      At line 3 in file dft.s
+   Uses
+      None
+Comment: TabSig unused
+1 symbol
+340 symbols in table

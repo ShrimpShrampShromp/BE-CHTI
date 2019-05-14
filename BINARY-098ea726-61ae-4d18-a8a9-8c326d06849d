@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<mdOwnedViews>
+	<mdElement elementClass='DiagramFrame' xmi:id='_18_4_1_f31034a_1482165096746_961241_14523'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482165096721_512059_14501'/>
+		<geometry>5, 5, 1031, 828</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='SequenceLifeline' xmi:id='_18_4_1_f31034a_1482165180710_519922_14585'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482165180701_359446_14583'/>
+		<properties>
+			<mdElement elementClass='BooleanProperty'>
+				<propertyID>SHOW_FULL_TYPE</propertyID>
+				<propertyDescriptionID>SHOW_FULL_TYPE_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='true'/>
+			</mdElement>
+		</properties>
+		<geometry>168, 75, 83, 21</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews>
+			<mdElement elementClass='LifeLineLine' xmi:id='_18_4_1_f31034a_1482165180711_91307_14595'>
+				<elementID xmi:idref='_18_4_1_f31034a_1482165180701_359446_14583'/>
+				<geometry>209, 96, 0, 629</geometry>
+				<mdOwnedViews>
+					<mdElement elementClass='SeqMessage' xmi:id='_18_4_1_f31034a_1484258052687_91413_16680'>
+						<elementID xmi:idref='_18_4_1_f31034a_1484258052679_673830_16677'/>
+						<linkFirstEndID xmi:idref='_18_4_1_f31034a_1516539006846_553453_17445'/>
+						<linkSecondEndID xmi:idref='_18_4_1_f31034a_1484258456003_767933_16819'/>
+						<geometry>412, 343; 214, 343; </geometry>
+						<compartment compartmentID='TAGGED_VALUES'/>
+						<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+						<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+						<linkNameID xmi:idref='_18_4_1_f31034a_1484258052690_484653_16682'/>
+						<nameVisible xmi:value='true'/>
+						<mdOwnedViews>
+							<mdElement elementClass='MessageSignature' xmi:id='_18_4_1_f31034a_1484258052690_484653_16682'>
+								<geometry>260, 328, 106, 12</geometry>
+								<mdOwnedViews/>
+								<text>Actionner gachette</text>
+							</mdElement>
+						</mdOwnedViews>
+					</mdElement>
+					<mdElement elementClass='SeqMessage' xmi:id='_18_4_1_f31034a_1484258221095_580877_16770'>
+						<elementID xmi:idref='_18_4_1_f31034a_1484258221087_909533_16767'/>
+						<linkFirstEndID xmi:idref='_18_4_1_f31034a_1484258456004_909622_16820'/>
+						<linkSecondEndID xmi:idref='_18_4_1_f31034a_1484258456003_767933_16819'/>
+						<geometry>763, 165; 214, 165; </geometry>
+						<compartment compartmentID='TAGGED_VALUES'/>
+						<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+						<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+						<linkNameID xmi:idref='_18_4_1_f31034a_1484258221099_286463_16773'/>
+						<nameVisible xmi:value='true'/>
+						<mdOwnedViews>
+							<mdElement elementClass='MessageSignature' xmi:id='_18_4_1_f31034a_1484258221099_286463_16773'>
+								<geometry>427, 150, 123, 12</geometry>
+								<mdOwnedViews/>
+								<text>Allumer Dispositif Cible</text>
+							</mdElement>
+						</mdOwnedViews>
+					</mdElement>
+					<mdElement elementClass='Activation' xmi:id='_18_4_1_f31034a_1484258456003_767933_16819'>
+						<elementID xmi:idref='_18_4_1_f31034a_1482165180701_359446_14583'/>
+						<geometry>204, 165, 10, 525</geometry>
+						<resizedByUser xmi:value='true'/>
+					</mdElement>
+				</mdOwnedViews>
+			</mdElement>
+		</mdOwnedViews>
+	</mdElement>
+	<mdElement elementClass='CombinedFragment' xmi:id='_18_4_1_f31034a_1482165433818_861538_14727'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482165433810_725324_14725'/>
+		<geometry>42, 266, 924, 434</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+		<operands>
+			<mdElement elementClass='InteractionOperand' xmi:id='_18_4_1_f31034a_1482165433844_688058_14740'>
+				<elementID xmi:idref='_18_4_1_f31034a_1482165433811_814877_14726'/>
+				<geometry>45, 286, 918, 411</geometry>
+				<mdOwnedViews>
+					<mdElement elementClass='CombinedFragment' xmi:id='_18_4_1_f31034a_1482165722182_2306_15010'>
+						<elementID xmi:idref='_18_4_1_f31034a_1482165722175_82441_15008'/>
+						<geometry>63, 448, 847, 168</geometry>
+						<compartment compartmentID='TAGGED_VALUES'/>
+						<mdOwnedViews/>
+						<operands>
+							<mdElement elementClass='InteractionOperand' xmi:id='_18_4_1_f31034a_1482165722202_800634_15023'>
+								<elementID xmi:idref='_18_4_1_f31034a_1482165722175_336067_15009'/>
+								<geometry>66, 468, 841, 145</geometry>
+								<mdOwnedViews/>
+								<text>[Cible touchée]</text>
+							</mdElement>
+						</operands>
+					</mdElement>
+				</mdOwnedViews>
+				<text>[Duree de jeu non atteinte]</text>
+			</mdElement>
+		</operands>
+	</mdElement>
+	<mdElement elementClass='SequenceLifeline' xmi:id='_18_4_1_f31034a_1484257157655_840290_16342'>
+		<elementID xmi:idref='_18_4_1_f31034a_1484257157640_485518_16340'/>
+		<geometry>357, 75, 121, 36</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews>
+			<mdElement elementClass='LifeLineLine' xmi:id='_18_4_1_f31034a_1484257157655_601139_16352'>
+				<elementID xmi:idref='_18_4_1_f31034a_1484257157640_485518_16340'/>
+				<geometry>417, 111, 0, 614</geometry>
+				<mdOwnedViews>
+					<mdElement elementClass='SeqMessage' xmi:id='_18_4_1_f31034a_1484257889582_65776_16578'>
+						<elementID xmi:idref='_18_4_1_f31034a_1484257889575_177459_16575'/>
+						<linkFirstEndID xmi:idref='_18_4_1_f31034a_1484258456004_909622_16820'/>
+						<linkSecondEndID xmi:idref='_18_4_1_f31034a_1516539006846_553453_17445'/>
+						<geometry>763, 368; 422, 368; </geometry>
+						<compartment compartmentID='TAGGED_VALUES'/>
+						<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+						<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+						<linkNameID xmi:idref='_18_4_1_f31034a_1484257889584_144134_16580'/>
+						<nameVisible xmi:value='true'/>
+						<mdOwnedViews>
+							<mdElement elementClass='MessageSignature' xmi:id='_18_4_1_f31034a_1484257889584_144134_16580'>
+								<geometry>561, 353, 63, 12</geometry>
+								<mdOwnedViews/>
+								<text>Tir LASER</text>
+							</mdElement>
+						</mdOwnedViews>
+					</mdElement>
+					<mdElement elementClass='StateInvariant' xmi:id='_18_4_1_f31034a_1516538243370_542133_17233'>
+						<elementID xmi:idref='_18_4_1_f31034a_1516538241598_377315_17226'/>
+						<geometry>358, 385, 118, 36</geometry>
+						<compartment compartmentID='TAGGED_VALUES'/>
+						<mdOwnedViews/>
+					</mdElement>
+					<mdElement elementClass='Activation' xmi:id='_18_4_1_f31034a_1516539006846_553453_17445'>
+						<elementID xmi:idref='_18_4_1_f31034a_1484257157640_485518_16340'/>
+						<geometry>412, 343, 10, 94</geometry>
+						<resizedByUser xmi:value='true'/>
+					</mdElement>
+				</mdOwnedViews>
+			</mdElement>
+		</mdOwnedViews>
+	</mdElement>
+	<mdElement elementClass='SequenceLifeline' xmi:id='_18_4_1_f31034a_1484257194582_703886_16395'>
+		<elementID xmi:idref='_18_4_1_f31034a_1484257194575_284840_16393'/>
+		<properties>
+			<mdElement elementClass='ColorProperty'>
+				<propertyID>FILL_COLOR</propertyID>
+				<propertyDescriptionID>FILL_COLOR_DESCRIPTION</propertyDescriptionID>
+				<value xmi:value='-3355393'/>
+			</mdElement>
+		</properties>
+		<geometry>665, 75, 207, 36</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews>
+			<mdElement elementClass='LifeLineLine' xmi:id='_18_4_1_f31034a_1484257194582_251746_16405'>
+				<elementID xmi:idref='_18_4_1_f31034a_1484257194575_284840_16393'/>
+				<geometry>768, 111, 0, 614</geometry>
+				<mdOwnedViews>
+					<mdElement elementClass='StateInvariant' xmi:id='_18_4_1_f31034a_1516532137955_276525_17125'>
+						<elementID xmi:idref='_18_4_1_f31034a_1516532133761_418121_17118'/>
+						<geometry>674, 203, 188, 36</geometry>
+						<compartment compartmentID='TAGGED_VALUES'/>
+						<mdOwnedViews/>
+					</mdElement>
+					<mdElement elementClass='StateInvariant' xmi:id='_18_4_1_f31034a_1516532289652_584030_17185'>
+						<elementID xmi:idref='_18_4_1_f31034a_1516532287704_265067_17180'/>
+						<geometry>697, 301, 143, 36</geometry>
+						<compartment compartmentID='TAGGED_VALUES'/>
+						<mdOwnedViews/>
+					</mdElement>
+					<mdElement elementClass='StateInvariant' xmi:id='_18_4_1_f31034a_1516538350505_214549_17281'>
+						<elementID xmi:idref='_18_4_1_f31034a_1516538348200_253963_17276'/>
+						<geometry>702, 490, 133, 36</geometry>
+						<compartment compartmentID='TAGGED_VALUES'/>
+						<mdOwnedViews/>
+					</mdElement>
+					<mdElement elementClass='Activation' xmi:id='_18_4_1_f31034a_1484258456004_909622_16820'>
+						<elementID xmi:idref='_18_4_1_f31034a_1484257194575_284840_16393'/>
+						<geometry>763, 165, 10, 443</geometry>
+						<resizedByUser xmi:value='true'/>
+					</mdElement>
+					<mdElement elementClass='StateInvariant' xmi:id='_18_4_1_f31034a_1516538504067_404328_17367'>
+						<elementID xmi:idref='_18_4_1_f31034a_1516538502204_827175_17362'/>
+						<geometry>722, 553, 92, 36</geometry>
+						<compartment compartmentID='TAGGED_VALUES'/>
+						<mdOwnedViews/>
+					</mdElement>
+				</mdOwnedViews>
+			</mdElement>
+		</mdOwnedViews>
+	</mdElement>
+	<mdElement elementClass='RectangularShape' xmi:id='_18_4_1_f31034a_1484259244051_580648_16896'>
+		<properties>
+			<mdElement elementClass='ChoiceProperty'>
+				<propertyID>LINE_STYLE</propertyID>
+				<propertyDescriptionID>LINE_STYLE_DESCRIPTION</propertyDescriptionID>
+				<value>SOLID</value>
+				<choice xmi:value='DASHED^SOLID^DOTTED'/>
+				<index xmi:value='1'/>
+			</mdElement>
+		</properties>
+		<geometry>308, 35, 602, 91</geometry>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='TextBox' xmi:id='_18_4_1_f31034a_1484259329579_671395_16908'>
+		<properties>
+			<mdElement elementClass='FontProperty'>
+				<propertyID>FONT</propertyID>
+				<propertyDescriptionID>FONT_DESCRIPTION</propertyDescriptionID>
+				<fontName>Times New Roman</fontName>
+				<size xmi:value='16'/>
+				<style xmi:value='3'/>
+			</mdElement>
+		</properties>
+		<geometry>511, 56, 126, 36</geometry>
+		<mdOwnedViews/>
+		<text>Système Jeu LASER</text>
+	</mdElement>
+</mdOwnedViews>

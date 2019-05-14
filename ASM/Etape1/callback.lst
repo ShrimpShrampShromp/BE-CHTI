@@ -1,0 +1,133 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ; ce programme est pour l'assembleur RealView (Keil)
+    2 00000000                 thumb
+    3 00000000         
+    4 00000000                 extern           etat
+    5 00000000         
+    6 00000000 40010C10 
+                       GPIOB_BSRR
+                               equ              0x40010C10  ; Bit Set/Reset reg
+                                                            ister
+    7 00000000         
+    8 00000000                 area             moncode, code, readonly
+    9 00000000                 export           callback
+   10 00000000         ;
+   11 00000000         callback
+                               proc
+   12 00000000 4809            ldr              r0,=etat    ; on change la vale
+                                                            ur de etat
+   13 00000002 6802            ldr              r2,[r0]
+   14 00000004 2A01            cmp              r2, #0x00000001
+   15 00000006 D007            beq              misea0
+   16 00000008         ; mise a 1 de PB1
+   17 00000008 4B08    misea1  ldr              r3, =GPIOB_BSRR
+   18 0000000A F04F 0102       mov              r1, #0x00000002
+   19 0000000E 6019            str              r1, [r3]
+   20 00000010 F102 0201       add              r2,#1       ;
+   21 00000014 6002            str              r2,[r0]
+   22 00000016 E006            b                fin
+   23 00000018         
+   24 00000018         ; mise a zero de PB1
+   25 00000018 4B04    misea0  ldr              r3, =GPIOB_BSRR
+   26 0000001A F44F 3100       mov              r1, #0x00020000
+   27 0000001E 6019            str              r1, [r3]
+   28 00000020 F1A2 0201       sub              r2,#1       ;
+   29 00000024 6002            str              r2,[r0]
+   30 00000026         
+   31 00000026 4770    fin     bx               lr          ; dernière instruct
+                                                            ion de la fonction
+   32 00000028                 endp
+   33 00000028         ;
+   34 00000028                 end
+              00000000 
+              40010C10 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\obj\callback.d -o.\obj\callback.o -I.\RTE\_reel -IC:\Keil_v5\ARM
+\PACK\ARM\CMSIS\5.3.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.
+2.0\Device\Include --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" 
+--predefine="__UVISION_VERSION SETA 525" --predefine="_RTE_ SETA 1" --predefine
+="STM32F10X_MD SETA 1" --list=callback.lst callback.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+callback 00000000
+
+Symbol: callback
+   Definitions
+      At line 11 in file callback.s
+   Uses
+      At line 9 in file callback.s
+Comment: callback used once
+fin 00000026
+
+Symbol: fin
+   Definitions
+      At line 31 in file callback.s
+   Uses
+      At line 22 in file callback.s
+Comment: fin used once
+misea0 00000018
+
+Symbol: misea0
+   Definitions
+      At line 25 in file callback.s
+   Uses
+      At line 15 in file callback.s
+Comment: misea0 used once
+misea1 00000008
+
+Symbol: misea1
+   Definitions
+      At line 17 in file callback.s
+   Uses
+      None
+Comment: misea1 unused
+moncode 00000000
+
+Symbol: moncode
+   Definitions
+      At line 8 in file callback.s
+   Uses
+      None
+Comment: moncode unused
+5 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Absolute symbols
+
+GPIOB_BSRR 40010C10
+
+Symbol: GPIOB_BSRR
+   Definitions
+      At line 6 in file callback.s
+   Uses
+      At line 17 in file callback.s
+      At line 25 in file callback.s
+
+1 symbol
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+etat 00000000
+
+Symbol: etat
+   Definitions
+      At line 4 in file callback.s
+   Uses
+      At line 12 in file callback.s
+Comment: etat used once
+1 symbol
+344 symbols in table

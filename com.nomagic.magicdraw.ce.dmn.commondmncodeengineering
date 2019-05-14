@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:md.ce.ddl.rt.options="http://www.nomagic.com/magicdraw/ce/ddl/rt/options/1" xmlns:md.ce.xmlschema.rt.options="http://www.nomagic.com/magicdraw/ce/xmlschema/rt/options/1">
+  <md.ce.ddl.rt.options:DDLLanguageOptions xmi:id="_t4A08creEeOvOJePfEUfxg" commentStyle="0" header="@(#) $FILE_NAME" documentationProcessorID="STANDARD_PROCESSOR">
+    <userDefinedAttributeCreationRule xmi:id="_7rOmld9WEeSXCudwua_I0A" default="ASSOCIATION">
+      <rules xmi:id="_7rOmlt9WEeSXCudwua_I0A" creationType="ATTRIBUTE" pattern="*" classType="DataType"/>
+    </userDefinedAttributeCreationRule>
+  </md.ce.ddl.rt.options:DDLLanguageOptions>
+  <md.ce.xmlschema.rt.options:XMLSchemaLanguageOptions xmi:id="_t4CDEMreEeOvOJePfEUfxg" commentStyle="0" header="@(#) $FILE_NAME" documentationProcessorID="STANDARD_PROCESSOR">
+    <userDefinedAttributeCreationRule xmi:id="_7rOmlN9WEeSXCudwua_I0A" default="ASSOCIATION"/>
+  </md.ce.xmlschema.rt.options:XMLSchemaLanguageOptions>
+</xmi:XMI>

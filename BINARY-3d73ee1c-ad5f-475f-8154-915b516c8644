@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<mdOwnedViews>
+	<mdElement elementClass='DiagramFrame' xmi:id='_18_4_1_f31034a_1482186667020_959429_17348'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482186666992_763660_17327'/>
+		<geometry>5, 5, 1110, 770</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1482186682089_736163_17361'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482186374793_63132_17315'/>
+		<geometry>287, 420, 525, 35</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1482186686976_391419_17406'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482186621210_162993_17323'/>
+		<geometry>287, 532, 106, 33</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Generalization' xmi:id='_18_4_1_f31034a_1482186720880_959191_17459'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482186721858_188031_17462'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1482186682089_736163_17361'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1482186686976_391419_17406'/>
+		<geometry>343, 455; 343, 532; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='false'/>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1482255813678_976725_18976'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482255773893_911695_18970'/>
+		<geometry>182, 532, 80, 33</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Generalization' xmi:id='_18_4_1_f31034a_1482255816721_726785_19018'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482255817898_344472_19021'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1482186682089_736163_17361'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1482255813678_976725_18976'/>
+		<geometry>287, 438; 228, 438; 228, 532; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='false'/>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1482256640826_523070_19522'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482256600404_190599_19518'/>
+		<geometry>231, 175, 80, 33</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1482256685398_896263_19569'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482256676725_657295_19567'/>
+		<geometry>7, 266, 80, 33</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Generalization' xmi:id='_18_4_1_f31034a_1482256689381_321587_19613'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482256691036_567706_19616'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1482256640826_523070_19522'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1482256685398_896263_19569'/>
+		<geometry>231, 182; 46, 182; 46, 266; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='false'/>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1482256773769_237268_19637'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482256748461_489804_19627'/>
+		<geometry>315, 266, 80, 33</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1482256776223_686838_19680'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482256755901_940436_19631'/>
+		<geometry>413, 266, 80, 33</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1482256778499_361518_19723'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482256763696_306588_19635'/>
+		<geometry>224, 266, 80, 33</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1482256780842_217928_19766'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482256717575_540383_19621'/>
+		<geometry>133, 266, 80, 33</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Generalization' xmi:id='_18_4_1_f31034a_1482256811921_7860_19826'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482256812906_547886_19829'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1482256640826_523070_19522'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1482256780842_217928_19766'/>
+		<geometry>231, 193; 179, 193; 179, 266; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='false'/>
+	</mdElement>
+	<mdElement elementClass='Generalization' xmi:id='_18_4_1_f31034a_1482256821271_797098_19836'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482256822153_696289_19839'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1482256640826_523070_19522'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1482256778499_361518_19723'/>
+		<geometry>266, 208; 266, 266; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='false'/>
+	</mdElement>
+	<mdElement elementClass='Generalization' xmi:id='_18_4_1_f31034a_1482256823877_540328_19841'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482256824401_537997_19844'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1482256640826_523070_19522'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1482256773769_237268_19637'/>
+		<geometry>311, 193; 350, 193; 350, 266; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='false'/>
+	</mdElement>
+	<mdElement elementClass='Generalization' xmi:id='_18_4_1_f31034a_1482256826234_330481_19846'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482256827280_792068_19849'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1482256640826_523070_19522'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1482256776223_686838_19680'/>
+		<geometry>311, 182; 455, 182; 455, 266; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='false'/>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1482271189268_886478_24675'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482270991451_864070_24621'/>
+		<geometry>721, 539, 80, 33</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Generalization' xmi:id='_18_4_1_f31034a_1482271192727_755328_24717'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482271193253_396516_24720'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1482186682089_736163_17361'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1482271189268_886478_24675'/>
+		<geometry>767, 455; 767, 539; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='false'/>
+	</mdElement>
+	<mdElement elementClass='Note' xmi:id='_18_4_1_f31034a_1482525089160_609538_19449'>
+		<geometry>546, 147, 179, 50</geometry>
+		<compartment compartmentID='TAGGED_VALUES2'/>
+		<mdOwnedViews/>
+		<text>Type de flowPort
+</text>
+	</mdElement>
+	<mdElement elementClass='Note' xmi:id='_18_4_1_f31034a_1482525101032_977131_19467'>
+		<geometry>553, 273, 179, 57</geometry>
+		<compartment compartmentID='TAGGED_VALUES2'/>
+		<mdOwnedViews/>
+		<text>Item flow (flix circulant réellement dans les connecteurs)
+</text>
+	</mdElement>
+	<mdElement elementClass='Class' xmi:id='_18_4_1_f31034a_1482589324885_307801_16196'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482589314664_340714_16192'/>
+		<geometry>504, 539, 80, 33</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+	<mdElement elementClass='Generalization' xmi:id='_18_4_1_f31034a_1482589330398_467639_16238'>
+		<elementID xmi:idref='_18_4_1_f31034a_1482589331367_348328_16241'/>
+		<linkFirstEndID xmi:idref='_18_4_1_f31034a_1482186682089_736163_17361'/>
+		<linkSecondEndID xmi:idref='_18_4_1_f31034a_1482589324885_307801_16196'/>
+		<geometry>536, 455; 536, 539; </geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_A' isContentLocked='true'/>
+		<compartment compartmentID='CONVEYED_INFORMATION_B' isContentLocked='true'/>
+		<nameVisible xmi:value='false'/>
+	</mdElement>
+</mdOwnedViews>
