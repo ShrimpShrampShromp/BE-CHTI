@@ -1,0 +1,105 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 thumb
+    2 00000000         
+    3 00000000                 extern           TabCos
+    4 00000000                 extern           TabSin
+    5 00000000         
+    6 00000000                 area             moncode, code, readonly
+    7 00000000                 export           sommeangle
+    8 00000000         ;
+    9 00000000         sommeangle
+                               proc
+   10 00000000 4908            ldr              r1,=TabCos  ; on charge la vale
+                                                            ur de tabcos, l'arg
+                                                            ument est dans r0?
+   11 00000002 4A09            ldr              r2, =TabSin ; tabsin
+   12 00000004 B410            push             {r4}
+   13 00000006 B420            push             {r5}
+   14 00000008 F931 4010       ldrsh            r4, [r1, r0, LSL #1] ;on met le
+                                                             arg-ième cos dans 
+                                                            r4
+   15 0000000C F932 5010       ldrsh            r5, [r2, r0, LSL #1] ;on met le
+                                                             arg-ieme sin dans 
+                                                            r5
+   16 00000010 F04F 0C00       mov              r12, #0x0000
+   17 00000014 FB04 CC04       mla              r12, r4, r4, r12 
+                                                            ;on ajoute cos*cos
+   18 00000018 FB05 CC05       mla              r12, r5, r5, r12 
+                                                            ; on ajoute sin*sin
+                                                            
+   19 0000001C 4660            mov              r0, r12
+   20 0000001E BC20            pop              {r5}
+   21 00000020 BC10            pop              {r4}
+   22 00000022 4770    fin     bx               lr          ; dernière instruct
+                                                            ion de la fonction
+   23 00000024                 endp
+   24 00000024         ;
+   25 00000024                 end
+              00000000 
+              00000000 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\obj\angle.d -o.\obj\angle.o -I.\RTE\_Simu -IC:\Keil_v5\ARM\PACK\
+ARM\CMSIS\5.3.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\De
+vice\Include --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --pred
+efine="__UVISION_VERSION SETA 525" --predefine="_RTE_ SETA 1" --predefine="STM3
+2F10X_MD SETA 1" --list=angle.lst angle.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+fin 00000022
+
+Symbol: fin
+   Definitions
+      At line 22 in file angle.s
+   Uses
+      None
+Comment: fin unused
+moncode 00000000
+
+Symbol: moncode
+   Definitions
+      At line 6 in file angle.s
+   Uses
+      None
+Comment: moncode unused
+sommeangle 00000000
+
+Symbol: sommeangle
+   Definitions
+      At line 9 in file angle.s
+   Uses
+      At line 7 in file angle.s
+Comment: sommeangle used once
+3 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+TabCos 00000000
+
+Symbol: TabCos
+   Definitions
+      At line 3 in file angle.s
+   Uses
+      At line 10 in file angle.s
+Comment: TabCos used once
+TabSin 00000000
+
+Symbol: TabSin
+   Definitions
+      At line 4 in file angle.s
+   Uses
+      At line 11 in file angle.s
+Comment: TabSin used once
+2 symbols
+342 symbols in table
