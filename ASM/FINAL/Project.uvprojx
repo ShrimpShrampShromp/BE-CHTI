@@ -402,11 +402,6 @@
               <FilePath>.\dft.s</FilePath>
             </File>
             <File>
-              <FileName>t00f1.asm</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\t00f1.asm</FilePath>
-            </File>
-            <File>
               <FileName>modcarre.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\modcarre.s</FilePath>
@@ -842,11 +837,6 @@
               <FileName>dft.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\dft.s</FilePath>
-            </File>
-            <File>
-              <FileName>t00f1.asm</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\t00f1.asm</FilePath>
             </File>
             <File>
               <FileName>modcarre.s</FileName>

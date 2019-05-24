@@ -24,8 +24,10 @@ type_etat StructSon;
 //variables malette
 
 //CORRESPONDANCE LED/CIBLE :
-// led 2 -> cible 
-// led  -> cible 2
+// led 2 -> cible 3 
+// led 1 -> cible 2
+// led 3 -> cible 1
+// led 0 -> cible 0
 
 int rand_cible;
 
@@ -50,25 +52,39 @@ void sys_callback(){
 			//envoi de l'information à la valise
 					
 			Prepare_Afficheur(i, score[i]);
-			Prepare_Clear_LED(i);
+			
+			Prepare_Clear_LED(0);
+			Prepare_Clear_LED(1);
+			Prepare_Clear_LED(2);
+			Prepare_Clear_LED(3);
 			
 			//nouvelle cible aléatoirement choisie
 			
-			Prepare_Clear_LED(i);
-		  rand_cible = rand() % 4;
-		  Prepare_Set_LED(rand_cible);
+		  rand_cible = (rand() % 4) + 1;
 			Choix_Capteur(rand_cible);
 			
-
-		} 
+				switch(rand_cible){
+			
+				case 1:
+						Prepare_Set_LED(LED_Cible_1);
+						break;
+				case 2:
+						Prepare_Set_LED(LED_Cible_2);
+						break;
+				case 3:
+						Prepare_Set_LED(LED_Cible_3);
+						break;
+				case 4:
+						Prepare_Set_LED(LED_Cible_4);
+				} 
 	}
 	GPIO_Clear(GPIOB, 1);
 	
+	}
 }
 
 
-int main(void)
-{
+int main(void){
 StructSon.position=LongueurSon-1;
 	StructSon.taille=LongueurSon;
 	StructSon.son=&Son;
@@ -116,8 +132,8 @@ Init_Affichage();
 //on teste d'abord un allumant une seule cible
 
 //rand_cible = rand() % 4;
-Choix_Capteur(2);
-Prepare_Set_LED(2);
+Choix_Capteur(0);
+Prepare_Set_LED(0);
 
 	while(1) {
 		int i;
