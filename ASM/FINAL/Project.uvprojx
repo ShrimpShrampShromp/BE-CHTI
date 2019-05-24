@@ -421,6 +421,26 @@
               <FileType>4</FileType>
               <FilePath>.\gassp72.lib</FilePath>
             </File>
+            <File>
+              <FileName>arghh.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\arghh.asm</FilePath>
+            </File>
+            <File>
+              <FileName>callback.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\callback.s</FilePath>
+            </File>
+            <File>
+              <FileName>Affichage_Valise.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Affichage_Valise.h</FilePath>
+            </File>
+            <File>
+              <FileName>affichage_valise.o</FileName>
+              <FileType>3</FileType>
+              <FilePath>.\affichage_valise.o</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -842,6 +862,26 @@
               <FileName>gassp72.lib</FileName>
               <FileType>4</FileType>
               <FilePath>.\gassp72.lib</FilePath>
+            </File>
+            <File>
+              <FileName>arghh.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\arghh.asm</FilePath>
+            </File>
+            <File>
+              <FileName>callback.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\callback.s</FilePath>
+            </File>
+            <File>
+              <FileName>Affichage_Valise.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Affichage_Valise.h</FilePath>
+            </File>
+            <File>
+              <FileName>affichage_valise.o</FileName>
+              <FileType>3</FileType>
+              <FilePath>.\affichage_valise.o</FilePath>
             </File>
           </Files>
         </Group>
